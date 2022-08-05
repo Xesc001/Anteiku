@@ -1,0 +1,108 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    
+}
+
+h1{
+    text-align:center;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: auto;
+    
+    background:white;
+    margin: 10px auto;
+}
+
+/* comidas */
+.comidas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.comidas img{
+    width: 100%;
+    height: 220px;
+}
+
+.comidas h3{
+    font-size: 27px;
+}
+
+.alimento img{
+    
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+.alimento{
+    margin: 10px auto;
+    background: white;
+    width: auto;
+    padding: 50px;
+}
+
+.logo{
+    float: left;
+    width: 90;
+    padding: 5px;
+}
+
+
+/* navegacion */
+.menu{
+    width: 1000px;
+    margin: 30px auto;
+   
+
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.menu li a:hover{
+   background: #EEF5DB;
+    color: brown;
+    transition: all .3s;
+}
+
+main{
+    text-align: center;
+}

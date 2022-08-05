@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+    background: url(..//Carrito\ de\ compra/caja.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: rgb(2, 177, 17);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 90px;
+    padding: 5px;
+}
+.menu{
+    float: left;
+    padding: 65px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: cornsilk;
+    padding: 20px;
+    text-decoration: none;
+    border:1px solid white;
+}
+.opciones li a:hover{
+    background: rgb(2, 128, 12);
+}
+.cuerpo{
+    float: left;
+    padding: 65px;
+    background-color: snow;
+    text-decoration: none;
+}
+.compras a{
+    text-decoration: none;
+    color: black;
+}
+.compras li{
+    padding: 25px;
+}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(41, 1, 41);
+    font-family: verdana;
+}
+.container{
+    width: 1200px;
+    margin: 10px auto;
+}
+.superior{
+    background: rgb(148, 97, 2);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 90px;
+    padding: 5px;
+}
+.menu{
+    float: left;
+    padding: 65px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: cornsilk;
+    padding: 20px;
+    text-decoration: none;
+    border:1px solid white;
+}
+.opciones li a:hover{
+    background: rgb(110, 72, 2);
+}
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float: left;
+    margin: 42px;
+    width: 300px;
+}
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 145, 0);
+}
+.formato{
+    text-align: left;
+    margin: 2cm;
+    color: rgb(158, 121, 0);
+}
+.efecto:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* fondos de cafeteria */
+#fondo1{
+    background-image: url(../cafeteria/imagenes/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondoce{
+    background-image: url(../cafeteria/imagenes/expresso.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondocc{
+    background-image: url(../cafeteria/imagenes/capuchino.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondoca{
+    background-image: url(../cafeteria/imagenes/americano.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondocl{
+    background-image: url(../cafeteria/imagenes/latte.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondocm{
+    background-image: url(../cafeteria/imagenes/mokachino.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondotv{
+    background-image: url(../cafeteria/imagenes/te_verde.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondotm{
+    background-image: url(../cafeteria/imagenes/manzanilla.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondotc{
+    background-image: url(../cafeteria/imagenes/te_chai.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondotn{
+    background-image: url(../cafeteria/imagenes/te_negro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fondoth{
+    background-image: url(../cafeteria/imagenes/te_helado.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.caja1{
+    float: left;
+}
+.caja1 a{
+    text-decoration: none;
+}
+.caja2{
+    float: right;
+}
+.caja2 a{
+    text-decoration: none;
+}
