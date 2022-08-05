@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(41, 1, 41);
+    font-family: verdana;
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: rgb(148, 97, 2);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 90px;
+    padding: 5px;
+}
+.menu{
+    float: left;
+    padding: 65px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: cornsilk;
+    padding: 20px;
+    text-decoration: none;
+    border:1px solid white;
+}
+.opciones li a:hover{
+    background: rgb(110, 72, 2);
+}
+img{
+    display: block;
+    margin: auto;
+}
+.caja1{
+    float: left;
+}
+.caja1 a{
+    text-decoration: none;
+}
+.caja2{
+    float: right;
+}
+.caja2 a{
+    text-decoration: none;
+}
+.cuerpo{
+    background: url(../../reposteria/imgre/bg-cuerpo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
